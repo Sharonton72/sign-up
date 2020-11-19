@@ -5,20 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Hello!</title>
+    <title>Mauritius Art Competition</title>
     
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
     
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
   </head>  
-  <body>
-    <h1>Hi there!</h1>
-    
-    <p>
-      I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>!
-    </p>
+    <body>
+    <header class="header">
+    <h1 id="title">Oil Spill Disaster in Mauritius: Art Competition Sign-Up Form</h1>
+    <p id="description" class="description">Thank you for your participation. We appreciate your time in showcasing your talents <br> through artistic means to spread awareness on the oil spill event.</p>
+    </header>
+    <form id="survey-form">
+      <div class="form-div">
+        <label id="name-id" for="name">Name</label>
+        <input type="text" name="name" id="name" class="form-input" placeholder="Enter your name" required>
+      </div>
+      <div class="form-div">
+        <label id="email-id" for="email">Email</label>
+        <input type="email" name="email" id="email" class="form-input" placeholder="Enter your email" required>
+      </div>
+      <div class="form-div">
+        <label id="number-id" for="number">Phone Number</label>
+        <input type="number" name="number" id="number" min="000000" max="9999999" class="form-input" placeholder="Enter your phone number" required>
+      </div>
+      <div class="form-div">
+        <p>What is your current occupation?</p>
+        <select id="dropdown" for="occupation" class="form-div" required>
+          <option disabled selected value></option>
+          <option value="student">Student</option>
+          <option value="job-full">Job - Full-Time</option>
+          <option value="job-part">Job - Part-Time</option>
+          <option value="other">Other</option>
+          <option value="Prefer not to say">Prefer not to say</option>
+        </select>
+      </div>
+        <div class="form-div">
+          <p>Which medium would you like to make your art?</p>
+          <label>
+            <input name="medium" value="painting" type="radio" class="input-radio" checked>Painting
+          </label>
+          <label>
+            <input name="medium" value="drawing" type="radio" class="input-radio">Drawing
+          </label>
+          <input name="medium" value="digital-image" type="radio" class="input-radio">Digital-Image
+          </label>
+      <input name="medium" value="digital-animation" type="radio" class="input-radio">Digital-Animation
+          </label>
+      </div>
+      <div class="form-div">
+        <p>Which region will you be sending your work from?</p>
+        <input name="prefer" value="North East- River Rempart" type="checkbox" class="input-checkbox">
+        North-East:  River Rempart
+        </input>
+   <input name="prefer" value="North West- Pamplemousses" type="checkbox" class="input-checkbox">
+        North-West: Pamplemousses
+        </input>
+ <input name="prefer" value="South West- Black River" type="checkbox" class="input-checkbox">
+        South-West:  Black River
+        </input>
+ <input name="prefer" value="South East- Flacq" type="checkbox" class="input-checkbox">
+        South-East:  Flacq
+        </input>
+     <input name="prefer" value="Central- Plaine Wilhems" type="checkbox" class="input-checkbox">
+        Central:  Plaine Wilhems
+        </input>
+</div>
+<div class="form-div">
+  <p>Please describe your artwork. You can write on your inspiration or choice of medium to create your work.</p>
+  <textarea id="explanation" class="input-textarea" name="explanation" placeholder="Please describe in here."></textarea>
+</div>
+<div class="form-div">
+  <button type="submit" href="/index(submitted).html" class="submit-button">Submit</button>
+</div>
+</form>
+  </body>
+</html>
 
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
