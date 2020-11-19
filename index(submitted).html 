@@ -12,8 +12,8 @@
     
   </head>  
     <body>
-    <h1 id="title">Thank you for signing up!</h1>
-    <p id="description" class="description">We will reach out to you on email for further consideration.</p>
+    <h1>Thank you for signing up!</h1>
+    <p>We will reach out to you on email for further consideration.</p>
    
 
     <!-- include the Glitch button to show what the webpage is about and
@@ -21,3 +21,4 @@
     <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
     <script src="https://button.glitch.me/button.js" defer></script>
     </body>
+</html>

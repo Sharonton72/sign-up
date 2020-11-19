@@ -36,9 +36,5 @@
         line-height: 1;
       }
       
-      .description {
-        font-weight: 100;
-        font-style: italic;
-      }
-      
+    
    
