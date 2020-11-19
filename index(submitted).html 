@@ -14,9 +14,8 @@
     <body>
     <header class= "header">
     <h1 id="title">Thank you for signing up!</h1>
-    <p id="description" class="description"></p>
+    <p id="description" class="description">We will reach out to you on email for further consideration.</p>
   </header>
-  
    
   </body>
 
